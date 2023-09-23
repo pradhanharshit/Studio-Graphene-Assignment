@@ -1,0 +1,56 @@
+.navbar {
+  padding: 12px 100px;
+
+  color: #ffffff;
+}
+
+.navbar-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 275;
+}
+
+.wishlist {
+  color: white;
+  font-size: 14px;
+  font-family: Work Sans;
+  font-weight: bold;
+}
+
+.wish {
+  margin-right: 16px;
+}
+
+.hl {
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding: 1px;
+  /* height: 100%; */
+}
+
+.prod {
+  position: relative;
+}
+
+.prod-dropdown {
+  position: absolute;
+}
+
+.nav-contents {
+  display: flex;
+  margin-top: 14px;
+  margin-left: 47px;
+}
+
+.nav-content {
+  margin-right: 18px;
+  font-size: 18px;
+  font-family: "Work Sans";
+  font-weight: bold;
+}
