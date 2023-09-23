@@ -1,5 +1,90 @@
 .home-container {
   width: 100%;
-  height: 750px;
+  height: 780px;
   background-color: #000;
+  position: relative;
+}
+
+.orng-rec {
+  width: 1100px;
+  height: 334px;
+  background-color: #f07e15;
+  position: absolute;
+  right: 0;
+  top: 330px;
+  /* margin-top: 216px; */
+}
+
+.msg {
+  color: #fff;
+  font-size: 135px;
+  font-family: Syne;
+  font-weight: 800;
+  z-index: 20;
+  line-height: 102.6px;
+}
+
+.msg-container {
+  margin-top: 97px;
+  margin-left: 90px;
+  position: absolute;
+  z-index: 30;
+}
+
+.msg-2 {
+  margin-left: 309px;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+
+.msg-3 {
+  margin-left: 66px;
+}
+
+.model-img {
+  position: absolute;
+  bottom: 0;
+  left: 899px;
+  z-index: 20;
+}
+
+.model-info {
+  color: #000;
+  position: absolute;
+  bottom: 137.67px;
+  left: 1300px;
+  font-size: 14px;
+  font-family: Work Sans;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.star-3 {
+  position: absolute;
+  top: 130px;
+  left: 1010px;
+}
+
+.line-23 {
+  position: absolute;
+  left: 0;
+  bottom: 124.69px;
+  z-index: 21;
+}
+
+.star-4 {
+  position: absolute;
+  left: 944px;
+  bottom: 77.95px;
+  z-index: 21;
+}
+
+.see-more {
+  color: #fff;
+  position: absolute;
+  bottom: 70px;
+  left: 115px;
+  font-size: 18px;
+  font-family: Work Sans;
+  font-weight: 400;
 }
