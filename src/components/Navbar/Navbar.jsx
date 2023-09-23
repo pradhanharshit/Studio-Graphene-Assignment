@@ -22,7 +22,11 @@ const Navbar = () => {
             <div className="prod">
               <p
                 className="nav-content"
-                style={{ color: "white" }}
+                style={{
+                  color: "white",
+                  textDecoration: dropVis ? "underline" : "none",
+                  marginBottom: "1px",
+                }}
                 onClick={() => {
                   setDropVis(!dropVis);
                 }}
@@ -35,7 +39,7 @@ const Navbar = () => {
                     .filter((nav) => nav.name === "OUR PRODUCTS")
                     .map((arr) => {
                       return arr.child.map((prod) => {
-                        return <p>{prod.name}</p>;
+                        return <p className="prod-name">{prod.name}</p>;
                       });
                     })}
                 </div>

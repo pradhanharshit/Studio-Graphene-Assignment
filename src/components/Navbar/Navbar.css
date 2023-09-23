@@ -1,6 +1,5 @@
 .navbar {
-  padding: 12px 100px;
-
+  padding: 12px 90px;
   color: #ffffff;
 }
 
@@ -49,8 +48,15 @@
 }
 
 .nav-content {
-  margin-right: 18px;
+  margin-right: 106px;
   font-size: 18px;
   font-family: "Work Sans";
   font-weight: bold;
+}
+
+.prod-name {
+  font-size: 14px;
+  font-family: Work Sans;
+  font-weight: 300;
+  margin: 6px 0px;
 }
