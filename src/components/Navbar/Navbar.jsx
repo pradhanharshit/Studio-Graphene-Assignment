@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { navbar } from "../../utils/navbar.js";
 const Navbar = () => {
-  const [dropVis, setDropVis] = useState(false);
+  const [dropVis, setDropVis] = useState(true);
   return (
     <div className="navbar">
       <div className="navbar-upper">
